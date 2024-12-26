@@ -7,8 +7,8 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID === undefined ? '94759874797' : process.env.SESSION_ID, //ADD YOUR SESSION ID
-    GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? '' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
+    SESSION_ID: process.env.SESSION_ID === undefined ? 'PINKVENOM-MD;SAdnDbJB#NaRqFtEkHE5NeThjO3uutVu0JteE0MAnOEvhNSfah9s' : process.env.SESSION_ID, //ADD YOUR SESSION ID
+    GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? 'prasanna' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
     GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
     WORK_TYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ? 'true' : process.env.AUTO_READ_STATUS, //TRUE OR FALSE
